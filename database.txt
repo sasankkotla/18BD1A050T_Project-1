@@ -1,0 +1,53 @@
+Database Name : HospitalManagement
+
+Collection-1: HospitalDetails
+
+[
+    {
+        "_id": "5f74d22b0e1a4aa7c4659a98",
+        "hId": "H1",
+        "name": "Apollo hospital",
+        "location": "dilsukhnagar",
+        "contactNo": "04024442333"
+    },
+    {
+        "_id": "5f74d28a0e1a4aa7c4659a99",
+        "hId": "H2",
+        "name": "Yashoda hospital",
+        "location": "Malakpet",
+        "contactNo": "04024442555"
+    },
+    {
+        "_id": "5f74d2b50e1a4aa7c4659a9a",
+        "hId": "H3",
+        "name": "Vasavi hospital",
+        "location": "Secundrabad",
+        "contactNo": "04024442666"
+    }
+]
+
+Collection-2: VentilatorDetails
+
+[
+    {
+        "_id": "5f74d4000e1a4aa7c4659a9c",
+        "hId": "H1",
+        "ventilatorId": "H1V5",
+        "status": "occupied",
+        "name": "Apollo Hospital"
+    },
+    {
+        "_id": "5f74d4330e1a4aa7c4659a9d",
+        "hId": "H2",
+        "ventilatorId": "H2V6",
+        "status": "occupied",
+        "name": "Yashoda Hospital"
+    },
+    {
+        "_id": "5f74d4520e1a4aa7c4659a9e",
+        "hId": "H3",
+        "ventilatorId": "H3V7",
+        "status": "unoccupied",
+        "name": "Vasavi Hospital"
+    }
+]
